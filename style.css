@@ -197,4 +197,25 @@ a:hover {
     display: block;
 }
 
+/*----------- SKILLS ----------*/
+#services{
+    padding: 30px 0;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    grid-gap: 25px;
+    margin-top: 50px;
+    color: white;
+}
+.list div{
 
+    padding: 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-right: 10px;
+}
+
+.list img{
+    height: 45%;
+}
