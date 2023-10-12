@@ -128,11 +128,62 @@ a:hover {
 }
 .about-2 {
     flex-basis: 60%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .subtitle {
     font-size: 5rem;
     font-weight: 600;
     color: white;
 }
+
+.tab-titles{
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0 40px;
+    
+}
+.tab-links {
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+/*
+.tab-links:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: black;
+}
+*/
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+    margin-left: 50px;
+}
+.tab-contents ul li span{
+    color: black;
+    font-size: 1.6rem;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+
 
