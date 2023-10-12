@@ -300,3 +300,49 @@ a:hover {
     background: white;
 }
 
+/* ------ CONTACT ME -----*/
+#contact {
+    padding: 40px 0;
+}
+
+.row {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.subtitle {
+    padding: 50px;
+    text-align: center; 
+}
+
+.email-container{
+    margin-top: 50px;
+}
+.phone-container{
+    margin-top: 30px;
+}
+.socials-container{
+    margin-top: 50px;
+}
+
+.email-container,
+.phone-container,
+.socials-container {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px;
+}
+
+.email-container img,
+.phone-container img,
+.icon {
+    cursor: pointer;
+    height: 3rem;
+}
+
+
