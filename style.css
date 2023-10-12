@@ -83,6 +83,17 @@ a:hover {
     font-size: 2rem;
     
 }
+/*
+.image-container{
+    display: flex;
+}
+.image-container img{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+*/
 .header-name h1{
     font-size: 3.7rem;
     font-weight: bolder;
