@@ -10,10 +10,10 @@ var tablinks = document.getElementsByClassName("tab-links");
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
-    
+
 function toggleMenu() {
-    const menu = document.querySelector(".navigation-links");
+    const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
     menu.classList.toggle("open");
     icon.classList.toggle("open");
-}
+  }

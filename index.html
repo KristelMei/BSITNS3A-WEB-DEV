@@ -20,20 +20,32 @@
                         <li><a href="#project">Project</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                </div>
+                </div> 
             </nav>
-    <!----
-    <div class="hamburger-menu">
-        <div class="logo">Kristel</div>
-        <div class="hamburger-icon">
-            <img src="images/menu.png" onclick="openmenu()" class="menu-icon">
+    <nav id="hamburger-nav">
+      <div class="logo">Kristel</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-    </div>
-    --->
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="#undergraduate" onclick="toggleMenu()">Skills</a>
+          </li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
     <div class="header-name">
         <p>Hello, I am</p>
             <h1>Espanillo, Kristel Mae G.</h1>
             <h2>IT Student, TUP-Manila</h2>  
+    </div>
+    <a href="images/RESUME.pdf" class="cv-button">Download CV</a>
     </div>
             </div>
         </div>
@@ -86,21 +98,29 @@
     <div class="container">
         <h1 class="sub-title">My Skills</h1>
         <div class="skill-list">
-            <div>
+            <div class="skills">
                 <img src="images/Skill 1.png" class="img">
-                <h2>Computer Literate</h2>
+                <div class="layer-skill">
+                    <h2>Computer Programming</h2>
+                </div>
             </div>
-            <div>
-                <img src="images/Skill 2.png" class="img">
-                <h2>Leadership</h2>
+            <div class="skills">
+                <img src="images/Sklil 2.png" class="img">
+                <div class="layer-skill">
+                    <h2>Graphic Design</h2>
+                </div>
             </div>
-            <div>
+            <div class="skills">
                 <img src="images/Skill 3.png" class="img">
-                <h2>Teamwork</h2>
+                <div class="layer-skill">
+                    <h2>Adobe Photoshop</h2>
+                </div>
             </div>
-            <div>
+            <div class="skills">
                 <img src="images/Skill 4.png" class="img">
-                <h2>Communication Skills</h2>
+                <div class="layer-skill">
+                    <h2>Video Editing</h2>
+                </div>
             </div>
         </div>
     </div>
@@ -110,31 +130,36 @@
 <!--------------------------------PROJECT------------------------------------------>
 <div id="project">
     <div class="container">
-        <h1 class="subtitle2">My Projects</h1>
+        <div class="proj-title">
+            <h1>My Projects</h1>
+        </div>
         <div class="project-list">
             <div class="projects">
-                <img src="images/Proj 1.png">
+                <img src="images/ShopeeUI.png">
                 <div class="layer">
-                    <h3>Student Record</h3>
-                    <p>The code allows you to add, view, search, update, and sort information.</p>
+                    <h3>E-Commerce UI</h3>
+                    <p>An application that allows a user to shop conveniently using a smartphone device.</p>
                 </div>
             </div>
             <div class="projects">
-                <img src="images/Proj 2.png">
+                <img src="images/MapsUI.png">
                 <div class="layer">
-                    <h3>Matching Delimiters</h3>
-                    <p>The code allows you to match delimiters of different expressions.</p>
+                    <h3>Direksyonaryo</h3>
+                    <p>An application that allows the user to easily navigate the roads.</p>
                 </div>
             </div>
             <div class="projects">
-                <img src="images/Proj 3.png">
+                <img src="images/DatingAppUI.jpg">
                 <div class="layer">
-                    <h3>File Compressor</h3>
-                    <p>The code allows you to compress and decompress a file.</p>
+                    <h3>Dating App UI</h3>
+                    <p>An application that allows the user to find a lover anywhere.</p>
                 </div>
             </div>
         </div>
+        <!-----
         <a href="sm" class="sm-btn">See More</a>
+        ---->
+        
     </div>
 </div>
 <!--------------------------------CONTACT ME------------------------------------------>
@@ -162,13 +187,7 @@
         </div>
     </div>
 </div>
-<!---
-                <a href="https://www.facebook.com/mims.pogi/"><img src="images/fb.png" class="icon"></a>
-                <a href="https://www.instagram.com/qazx_aqwe/"><img src="images/instagram.png" class="icon"></a>
-                <a href="https://github.com/KristelMei"><img src="images/github.png" class="icon"></a>
-                <a href="https://www.linkedin.com/in/kristel-mae-espanillo-805304285/"><img src="images/linkedin.png" class="icon"></a>
-                <a href="https://open.spotify.com/track/2BLdelIp46CHvKkyWeqZHL?si=7f9650bf02a14f6c"><img src="images/spotify.png" class="icon"></a>
-    ----->
+
 <div class="copyright">
     <p>Copyright © Kristel. Made with ♡ by Kristel Mae G. Espanillo</p>
 </div>
