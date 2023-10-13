@@ -12,85 +12,80 @@
         <div class="container">
             <nav>
                 <div class="logo">Kristel</div>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="skill">Skill</a></li>
-                    <li><a href="project">Project</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
+                <div>
+                    <ul class="navigation-links">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
-                <div class="header-name">
-                    <p>Hello, I am</p>
-                    <h1>Espanillo, Kristel Mae G.</h1>
-                    <h2>IT Student, TUP-Manila</h2>  
-                </div>
-                <!--
-                    <div class="image-container">
-                    <img src="images/me.png" class="img1">
-                </div>
-                -->
-                
+    <!----
+    <div class="hamburger-menu">
+        <div class="logo">Kristel</div>
+        <div class="hamburger-icon">
+            <img src="images/menu.png" onclick="openmenu()" class="menu-icon">
+        </div>
+    </div>
+    --->
+    <div class="header-name">
+        <p>Hello, I am</p>
+            <h1>Espanillo, Kristel Mae G.</h1>
+            <h2>IT Student, TUP-Manila</h2>  
+    </div>
             </div>
         </div>
     </div>
 
 <!--------------------------ABOUT ME----------------------------------------------->
    <div id="about">
-        <div class="container">
-                <div class="row">
-                    <div class="about-1">
-                        <img src="images/me2.jpg">
-                    </div>
-                    <div class="about-2">
-                        <h1 class="subtitle1">About Me</h1>
-                        <p>I am Kristel Mae G. Espanillo, 20 years old and 
-                            currently residing at Cubao, Quezon City. I live with 
-                            my mother and two younger brothers, and I am the eldest
-                            daughter of the family.</p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('hobbies')">Hobbies</p>
-                            <p class="tab-links" onclick="opentab('likes')">Likes</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab"id="hobbies">
-                            <ul>
-                                <li>Watching movies</li>
-                                <li>Reading books</li>
-                                <li>Taking a stroll</li>
-                                <li>Playing online games</li>
-                                <li>Listening to music</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="likes">
-                            <ul>
-                                <li>Carbonara & chicken</li>
-                                <li>Matcha & coffee</li>
-                                <li>Black, white, & pastel colors</li>
-                                <li>Horror Movies</li>
-                                <li>Yuri</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2021-Present</span><br>Technological University of the Philippines-Manila</li>
-                                <li><span>2015-2021</span><br>Juan Sumulong High School <br>ABE Business Internation College-Cubao Campus</li>
-                                <li><span>2008-2015</span><br>Aguinaldo Elementary School</li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
+        <div class="row">
+            <div class="about-1">
+                <img src="images/me2.jpg">
+            </div>
+            <div class="about-2">
+                <h1 class="subtitle1">About Me</h1>
+                <p>I am Kristel Mae G. Espanillo, 20 years old and currently residing at Cubao, Quezon City. I live with my mother and two younger brothers, and I am the eldest daughter of the family.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('hobbies')">Hobbies</p>
+                <p class="tab-links" onclick="opentab('likes')">Likes</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab"id="hobbies">
+                <ul>
+                    <li>Watching movies</li>
+                    <li>Reading books</li>
+                    <li>Taking a stroll</li>
+                    <li>Playing online games</li>
+                    <li>Listening to music</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="likes">
+                <ul>
+                    <li>Carbonara & chicken</li>
+                    <li>Matcha & coffee</li>
+                    <li>Black, white, & pastel colors</li>
+                    <li>Horror Movies</li>
+                    <li>Yuri</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021-Present</span><br>Technological University of the Philippines-Manila</li>
+                    <li><span>2015-2021</span><br>Juan Sumulong High School <br>ABE Business Internation College-Cubao Campus</li>
+                    <li><span>2008-2015</span><br>Aguinaldo Elementary School</li> 
+                </ul>
+            </div>
+            </div>
         </div>
-
-   </div>
-    
+    </div>
 <!--------------------------SKILLS----------------------------------------------->
-<div id="skills">
+<div id="skill">
     <div class="container">
         <h1 class="sub-title">My Skills</h1>
-        <div class="list">
+        <div class="skill-list">
             <div>
                 <img src="images/Skill 1.png" class="img">
                 <h2>Computer Literate</h2>
@@ -113,7 +108,7 @@
 </div>
 
 <!--------------------------------PROJECT------------------------------------------>
-<div id="portfolio">
+<div id="project">
     <div class="container">
         <h1 class="subtitle2">My Projects</h1>
         <div class="project-list">
@@ -143,20 +138,21 @@
     </div>
 </div>
 <!--------------------------------CONTACT ME------------------------------------------>
-<div class="contact">
-    <div class="container">
-        <div class="row">
-            <h1 class="subtitle">Contact Me</h1>
-            <div class="email-container">
-                <img src="images/email.png" class="img">
+<div class="contact-me">
+    <div class="contact-container">
+        <div class="contact-row">
+            <div class="contact-title">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="email-icon">
+                <img src="images/email.png" class="email">
                 <p>kristelmae.espanillo@tup.edu.ph</p>
             </div>
-            <div class="phone-container">
-                <img src="images/phone.png" class="img">
+            <div class="phone-icon">
+                <img src="images/phone.png" class="phone">
                 <p>09566002161</p>
             </div>
-            <a href="images/RESUME.pdf" class="cv-btn">Download CV</a>
-            <div class="socials-container">
+            <div class="social-icons">
                 <a href="https://www.facebook.com/mims.pogi/"><img src="images/fb.png" class="icon"></a>
                 <a href="https://www.instagram.com/qazx_aqwe/"><img src="images/instagram.png" class="icon"></a>
                 <a href="https://github.com/KristelMei"><img src="images/github.png" class="icon"></a>
@@ -166,24 +162,21 @@
         </div>
     </div>
 </div>
+<!---
+                <a href="https://www.facebook.com/mims.pogi/"><img src="images/fb.png" class="icon"></a>
+                <a href="https://www.instagram.com/qazx_aqwe/"><img src="images/instagram.png" class="icon"></a>
+                <a href="https://github.com/KristelMei"><img src="images/github.png" class="icon"></a>
+                <a href="https://www.linkedin.com/in/kristel-mae-espanillo-805304285/"><img src="images/linkedin.png" class="icon"></a>
+                <a href="https://open.spotify.com/track/2BLdelIp46CHvKkyWeqZHL?si=7f9650bf02a14f6c"><img src="images/spotify.png" class="icon"></a>
+    ----->
 <div class="copyright">
     <p>Copyright © Kristel. Made with ♡ by Kristel Mae G. Espanillo</p>
 </div>
-
 </div>
+
 <script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
+    
 </script>
+<script src="script.js"></script>
 </body>
 </html>
